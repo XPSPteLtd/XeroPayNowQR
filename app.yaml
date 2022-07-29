@@ -1,5 +1,6 @@
 # app.yaml
 runtime: nodejs10
+service: xeropaynow
 handlers:
 - url: /(.*\..+)$
   static_files: dist/\1
