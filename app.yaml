@@ -1,0 +1,10 @@
+# app.yaml
+runtime: nodejs10
+service: xeropaynow
+handlers:
+- url: /(.*\..+)$
+  static_files: dist/\1
+  upload: dist/(.*\..+)$
+- url: /.*
+  static_files: dist/index.html
+  upload: dist/index.html
