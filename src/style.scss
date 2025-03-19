@@ -5,3 +5,110 @@ $primary: #6061AB;
 body{
     background-color: $dark;
 }
+
+/* Center-align the content horizontally and keep it at the top */
+.page-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 2rem; /* Add some top padding for spacing */
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.payment-card {
+  max-width: 700px;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.payment-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.qr-code-section {
+  margin-right: 1.5rem;
+}
+
+.qr-code-wrapper {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.payment-details {
+  max-width: 350px;
+}
+
+.payment-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-bottom: 0.5rem;
+}
+
+.ref-number,
+.amount {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.3rem 0;
+}
+
+.instructions {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.instruction-text {
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recommended {
+  margin-left: 0.5rem;
+}
+
+.alternate-instruction {
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
+}
+
+.final-note {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+}
+
+.unsupported-message {
+  text-align: center;
+  color: #b94a48;
+}
+
+.qr-only-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}

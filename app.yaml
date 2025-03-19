@@ -1,5 +1,5 @@
 # app.yaml
-runtime: nodejs10
+runtime: nodejs20
 service: xeropaynow
 handlers:
 - url: /(.*\..+)$
